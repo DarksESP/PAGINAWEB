@@ -1,0 +1,5 @@
+MOCKAPI LINK: 
+https://6678f3070bd45250562065ee.mockapi.io/users
+
+DEPLOY GITHUB: 
+https://darksesp.github.io/PAGINAWEB/index.html
