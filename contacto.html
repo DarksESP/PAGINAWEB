@@ -55,58 +55,6 @@
     </section>
 
     <main class="mainContacto">
-      <div class="formContainer">
-        <h3>Contacto</h3>
-        <form id="formPrincipal" action="">
-          <div class="form-item">
-            <label for="">Nombre:</label>
-            <input name="nombre" type="text" required />
-          </div>
-
-          <div class="form-item">
-            <label for="">Apellido:</label>
-            <input name="apellido" type="text" required />
-          </div>
-
-          <div class="form-item">
-            <label for="">Gamertag:</label>
-            <input name="gamertag" type="text" required />
-          </div>
-
-          <div class="form-item">
-            <label for="">Email:</label>
-            <input name="email" type="email" required />
-          </div>
-
-          <div class="form-item">
-            <label for="">Contraseña:</label>
-            <input name="contraseña" type="password" required />
-          </div>
-
-          <div>
-            <label id="mostrarCapcha" for=""></label>
-          </div>
-          <div class="form-item">
-            <label for="">INGRESAR CAPCHA</label>
-            <input type="text" name="capchaIngresado" required />
-          </div>
-
-          <div class="buttonGenerarCapcha">
-            <button type="button" id="buttonGenerarCapcha">
-              GENERAR CAPCHA
-            </button>
-          </div>
-
-          <div class="form-item">
-            <button>ENVIAR</button>
-          </div>
-
-          <div>
-            <p id="capchaIsValid"></p>
-          </div>
-        </form>
-      </div>
-
       <div class="eventoExplicacion">
         <p>
           ¡Bienvenidos al Torneo Multiplataforma de Call of Duty: Modern
@@ -152,7 +100,76 @@
 
         <p>Atentamente GEEK Employees</p>
       </div>
+      <div class="formContainer">
+        <h3>Contacto</h3>
+        <form id="formP" action="">
+          <div class="form-item">
+            <label for="">Nombre:</label>
+            <input id="nombre" name="nombre" type="text" required />
+          </div>
+
+          <div class="form-item">
+            <label for="">Apellido:</label>
+            <input id="apellido" name="apellido"   type="text" required />
+          </div>
+
+          <div class="form-item">
+            <label for="">Gamertag:</label>
+            <input id="gamertag" name="gamertag" type="text" required />
+          </div>
+
+          <div class="form-item">
+            <label for="">Email:</label>
+            <input id="correo" name="correo" type="email" required />
+          </div>
+
+          <div class="form-item">
+            <label for="">Contraseña:</label>
+            <input id="contraseña" name="contraseña" type="password" required />
+          </div>
+
+          <div>
+            <label id="mostrarCapcha" for=""></label>
+          </div>
+          <div class="form-item">
+            <label for="">INGRESAR CAPCHA</label>
+            <input type="text" name="capchaIngresado" required />
+          </div>
+
+          <div class="buttonGenerarCapcha">
+            <button type="button" id="buttonGenerarCapcha">
+              GENERAR CAPCHA
+            </button>
+          </div>
+
+          <div>
+            <p id="capchaIsValid"></p>
+          </div>
+          <div class="form-item">
+            <button>ENVIAR</button>
+          </div>
+
+        </form>
+      </div>
+
     </main>
+
+    <section id="tableSection">
+      <table>       
+        <thead id="tHead">
+            <tr>
+                <th>GAMERTAG</th>
+                <th>CORREO</th>
+            </tr>
+        </thead>
+        <tbody id="tabla-dinamica">
+    
+        </tbody>
+       </table>
+
+    </section>
+
+
 
     <footer>
       <div class="socialMediaContainer">
@@ -172,7 +189,8 @@
       </div>
     </footer>
 
-    <script type="text/javascript" src="js/generarCapcha.js"></script>
+    <script type="text/javascript" src="js/capchaTableDinamica.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    
   </body>
 </html>
