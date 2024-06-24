@@ -1,4 +1,4 @@
-
+"use strict"
 let btnMostrarMenu = document.getElementById("buttonMenu");
 btnMostrarMenu.addEventListener('click', mostrarMenu);
 

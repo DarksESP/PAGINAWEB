@@ -1,3 +1,4 @@
+"use strict"
 let capchaValor = crearCapcha(); //DECLARAMOS UN CAPCHA POR DEFECTO
 
 
