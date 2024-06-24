@@ -262,6 +262,19 @@ footer .socialMediaContainer li a {
   margin: 10px;
 }
 
+/* TABLA DINAMICA */
+
+#tabla-dinamica {
+  width: 100%;
+}
+
+#tdItem {
+  width: 50%;
+  height: auto;
+  
+}
+
+
 /* --------------SECCION NOTICIAS ------------*/
 .mainNoticias {
   height: auto;
